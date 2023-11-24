@@ -1,5 +1,5 @@
 # Complex and Quaternion Calculator
-First Course 1 Semester
+First Course 1 Semester.
 Simple calculator for real numbers, complex numbers and quaternions numbers on Java.
 
 # Install
