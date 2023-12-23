@@ -51,10 +51,7 @@ public class Quaternion {
 	 * @param q - кватерніон, на який потрібно помножити
 	 */
 	public Quaternion multiply(Quaternion q) {
-		return new Quaternion(a * q.getA() - b * q.getB() - c * q.getC() - d * q.getD(),
-				a * q.getB() + b * q.getA() + c * q.getD() - d * q.getC(),
-				a * q.getC() - b * q.getD() + c * q.getA() + d * q.getB(),
-				a * q.getD() + b * q.getC() - c * q.getB() + d * q.getA());
+		return new Quaternion(a * q.getA() - b * q.getB() - c * q.getC() - d * q.getD(), a * q.getB() + b * q.getA() + c * q.getD() - d * q.getC(), a * q.getC() - b * q.getD() + c * q.getA() + d * q.getB(), a * q.getD() + b * q.getC() - c * q.getB() + d * q.getA());
 	}
 	/**
 	 * Повертає цей кватерніон, поділений на скаляр.
