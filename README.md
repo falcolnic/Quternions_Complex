@@ -1,6 +1,6 @@
 # Complex and Quaternion Calculator
-First Course 1 Semester.\
-Simple calculator for real numbers, complex numbers and quaternions numbers on Java.
+Сourse work.\
+Simple calculator for real numbers, complex numbers and quaternions numbers with GUI on Java.
 
 # Install
 Use any Java compiler to compile Main.java.
